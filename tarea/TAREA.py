@@ -7,7 +7,7 @@
 
 # Función para solicitar las temperaturas diarias
 def leer_temperaturas_semanales():
-    print("=== Registro de temperaturas (Tradicional 2) ===")
+    print("=== Registro de temperaturas (Tradicional ) ===")
     dias = ["Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado", "Domingo"]
     valores = []
 
@@ -31,4 +31,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
