@@ -31,7 +31,7 @@ class ClimaSemanal(RegistroClima):
 
     # POLIMORFISMO: redefine cómo se ingresan datos
     def ingresar_temperaturas(self):
-        print("=== Ingreso de temperaturas de la semana (POO versión 2) ===")
+        print("=== Ingreso de temperaturas de la semana (POO) ===")
         for dia in self.dias:
             valor = float(input(f"Ingrese temperatura del {dia}: "))
             self.agregar_dato(valor)
@@ -48,3 +48,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
