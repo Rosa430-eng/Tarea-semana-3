@@ -1,5 +1,5 @@
 # =================================================================
-#     PROMEDIO SEMANAL DEL CLIMA (VERSIÓN TRADICIONAL 2)
+#     PROMEDIO SEMANAL DEL CLIMA (VERSIÓN TRADICIONAL)
 # =================================================================
 # Enfoque: Programación estructurada
 # Característica: Uso claro de funciones independientes
@@ -31,3 +31,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
